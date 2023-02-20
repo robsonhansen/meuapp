@@ -1,0 +1,40 @@
+@import url(reset.css);
+
+.btn__youtube {
+  width: 200px;
+  height: 50px;
+
+  margin: 100px auto;
+
+  background-color: brown;
+
+  border-radius: 5px;
+  padding: 10px;
+
+  color: azure;
+  font-family: "Lucida Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  transition: all 1s;
+}
+
+.btn__youtube:hover {
+  cursor: pointer;
+  background-color: rgb(97, 25, 25);
+}
+
+footer {
+  width: 100%;
+
+  text-align: center;
+
+  font-size: 15px;
+  font-weight: 100;
+  font-family: "Lucida Sans", sans-serif;
+}
